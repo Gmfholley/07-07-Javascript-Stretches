@@ -1,0 +1,39 @@
+.tabbed-table {
+  height: 250px;
+  width: 400px;
+  background: rgb(240,240,240);
+  border: 1px solid rgb(168,168,168) ;
+}
+
+
+.tabs {
+  height: 50px;
+  width: 100%;
+  
+}
+
+.tab {
+  border: 1px rgb(168,168,168)  solid;
+  float: left;
+}
+
+
+.displays {
+  height: 200px;
+  width: 100%
+}
+
+.display {
+  display: none;
+}
+
+.selected {
+  display: inline;
+  border-bottom: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
