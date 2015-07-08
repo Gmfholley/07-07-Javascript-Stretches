@@ -1,0 +1,81 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+#board {
+  width: 600px;
+  height: 900px;
+  float: right;
+  overflow: hidden;
+}
+
+#colors {
+  float: left;
+  width: 100px;
+  height: 900px;
+}
+
+.pieces {
+  border-radius: 50%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.color {
+  width: 80px;
+  height: 80px;
+  margin: 10px auto;
+}
+
+.small {
+  width: 100px;
+  height: 100px;
+}
+
+.medium {
+  width: 170px;
+  height: 220px;
+}
+
+.large {
+ width: 190px;
+ height: 190px; 
+}
+
+.display {
+  display: table-cell;
+}
+
+.border {
+  border: black 5px solid;
+  border-collapse: collapse;
+}
+
+.hundred-percent {
+  overflow: hidden;
+  float: none;
+  height: 100px;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.blue {
+  background: blue;
+}
+
+.purple {
+  background: purple;
+}
