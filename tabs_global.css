@@ -1,0 +1,46 @@
+
+.tabbed-table {
+  height: 230px;
+  width: 400px;
+}
+
+.tabs {
+  height: 30px;
+  width: 100%;
+  position: relative;
+  top: 1px;
+}
+
+.tab {
+  border: 1px rgb(168,168,168) solid;
+  background: rgb(240,240,240);
+  float: left;
+  height: inherit;
+  padding: 4px;
+  position: relative;
+  margin-right: 4px;
+}
+
+.content-window {
+  height: 200px;
+  width: 100%;
+  background: rgb(240,240,240);
+  border: 1px solid rgb(168,168,168);
+}
+
+.content {
+  display: none;
+}
+
+.selected {
+  display: inline;
+  border-bottom: none;
+  top: 1px;
+/*  border-bottom: rgb(240,240,240) 1px solid;*/
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
