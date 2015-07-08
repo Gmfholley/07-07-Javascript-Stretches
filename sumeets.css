@@ -1,0 +1,21 @@
+.tab_content {
+  display: none;
+}
+
+.visible {
+  display: inline;
+}
+
+.nav {
+  height: 30px;
+}
+
+ul {
+  list-style: none;
+}
+
+.tab {
+  float: left;
+  margin: 5px;
+  height: 30px;
+}
